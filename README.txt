@@ -4,7 +4,7 @@ System specification:
  * Jenkins installed but not configured. Admin password into /var/lib/jenkins/secrets/initialAdminPassword
  * Root remote access behind ssh disabled. Use 'remote' instead. The 'remote' user is sudoers, so, use sudo for admin purpose.
 
-The 'remote' user password is : 'IC2MTeam42'
+The 'remote' user password is set in credentials.kdbx (open file with keepass. Key file is heepasskey)
 
 File system :
   Jenkins home directory : /mnt/hostShared/jenkins
